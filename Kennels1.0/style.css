@@ -1,0 +1,48 @@
+body {
+	background: #fbf3ff;
+}
+
+.header {
+	background: #9661b1;
+	padding: 20px;
+}
+
+@media (max-width: 575px) {
+	.logo {
+		max-width: 85%;
+	}
+}
+
+i.navbar-toggler.navbar-toggler-right {
+	margin-top: 25px;
+}
+
+.nav-item a {
+	color: #fff;
+}
+
+.navbar-toggler {
+	cursor: pointer;
+}
+
+#advert {
+	background: #ffe477;
+	padding: 10px 0;
+}
+
+#advert p {
+	margin-bottom: 0;
+}
+
+.spacing {
+	padding: 20px 0;
+}
+
+.center-img {
+	text-align: center;
+}
+
+.vertical-center {
+	text-align: center;
+	padding-top: 15px;
+}
