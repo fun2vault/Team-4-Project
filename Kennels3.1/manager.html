@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,500" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="wrapper">
+      <nav class="navbar navbar-toggleable-sm header">
+        <div class="container">
+          <i class="navbar-toggler navbar-toggler-right material-icons" style="color: #fbf3ff;" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">menu</i>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png"></a>
+        </div>
+      </nav>
+
+      <div class="container">
+
+        <div class="page-advert">
+          <h2>Manager</h2>
+		  <form>
+			<input type="close" value="Close Production Orders"><br>
+			<input type="print" value="Prints Shipping Labels"><br>
+			<input type="purchase" value="Purchase Orders"><br>
+			<input type="pay" value="Pay Vendors"><br>
+			<input type="returns" value="Process Returns"><br>
+			<input type="sales" value="Sales Report"><br>
+			<input type="customers" value="Customer Report"><br><br>
+			<input type="log_out" value="Log Out">
+			<form>
+        </div>
+
+        <div class="row">
+          
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-4">
+           
+          <div class="col col-md-4">
+            <img src="img/logo.png" style="margin-top: 35px;">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <!-- Script to keep footer on bottom even if content ends page short -->
+    <script>
+      var div = $('.wrapper').height() + 186;
+      var docHeight = $(window).height();
+      var docWidth = $(window).outerWidth();
+
+
+      if (div < docHeight & docWidth > 768) {
+
+        $('.wrapper').css({'min-height':'100%'});
+
+        $(document).ready(function(){
+            $(window).resize(function(){
+                var footerHeight = $('.footer').outerHeight();
+                var stickFooterPush = $('.push').height(footerHeight);
+          
+                $('.wrapper').css({'marginBottom':'-' + footerHeight + 'px'});
+              });
+          
+              $(window).resize();
+            });
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
