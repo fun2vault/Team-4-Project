@@ -1,10 +1,12 @@
 <?php
-$dsn = "sql213.byethost7.com";
-$username = "b7_20951820";
+$servername = "sv77.ifastnet.com";
+$username = "kennelsr_Manager";
 $password = "Group4project";
+$dbname = "kennelsr_kennels";
 
 try{
-	$db = new PDO("mysql:host=$dsn;dbname=b7_20951820_kennelsRus", $username, $password);
+	$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	
 } catch (PDOException $e){
 	$error_message = $e->getMessage();
@@ -12,9 +14,10 @@ try{
 	exit();
 }
 
+
 $query = "SELECT * FROM Customer
 			";
-$statement = $db->prepare($query);
+$statement = $conn->prepare($query);
 $statement->execute();
 $customers = $statement->fetchAll();
 ?>
