@@ -21,12 +21,13 @@
 		
 		echo "Missed Up";
 	} else {
+	
 		require_once('sign_in_database.php');
 		$query = 'INSERT INTO Customer
 					 (cust_last_name, cust_first_name, cust_phone, cust_email, cust_street, cust_city, cust_state, cust_zip, cust_passsword)
 				  VALUES
-					 (:last_name, :first_name, :phone_number, :email, :street, :city, :state, :zip, :customer_password);';
-		/*
+					 (:last_name, :first_name, :phone_number, :email, :street, :city, :state, :zip, :customer_password)';
+		
 		echo $first_name.'<br>';
 		echo $last_name.'<br>' ;
 		echo $customer_password.'<br>' ;
