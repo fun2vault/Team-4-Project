@@ -1,0 +1,172 @@
+/* Robert Bell, CSCI 4000, 30JUN17*/
+
+header, section, footer, aside, nav, label {
+	display: block;
+}
+
+html {
+	background-color: #612580;
+	color: #1A5276;
+}
+
+body {
+	font-family: arial, san-serif;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid black;
+	background-color: #446FD5;
+}
+
+header {
+	border-bottom: 2px solid black;
+	background: #446FD5;
+	padding: 15px;
+}
+
+main {
+    margin: 0;
+    padding: .5em 2em;
+}
+
+aside {
+	float: left;
+	width: 150px;
+}
+
+section {
+	float: left;
+    width: 500px;
+    padding-bottom: 1.5em; 
+	padding-left: 2em;
+	background-color: #446FD5;
+
+}
+
+footer {
+	text-align: right;
+	font-size: 80%;
+	border-top: 2px solid black;
+	background: #446FD5;
+	height: 25px;
+	padding: 10px 15px 0px;
+	clear: both;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+nav ul li {
+    padding-bottom: 0.5em;
+}
+
+h1 {
+	font-size: 200%;
+	margin-top: 0;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 150%;
+
+}
+
+h3 {
+	font-size: 125%;
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 0;
+}
+
+a {
+	font-weight: bold;
+	color: #1A5276;
+}
+
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+label {
+    
+    padding-right: 1em;
+	padding-left: 0px;
+    float: left;
+}
+
+header>h1 {
+	color:#FFE873 ;
+}
+
+table{
+
+}
+
+td {
+
+	padding: 5px 10px;
+}
+
+table, td, tr {
+	border-collapse: collapse;
+}
+
+#column{
+	font-weight: bold;
+	text-align: center;
+}
+
+#studentid{
+	text-align: center;
+	width: 100px;
+}
+
+td.detail{
+	text-align: right;
+	width: 200px;
+}
+
+table.borderedd{
+	color:#FFE873 ;
+	border: 2px solid black;
+}
+
+td.bordered {
+	border: dotted black;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+td.borderedalign	{
+	text-align: right;
+	width: 200px;
+	border: dotted black;
+	padding: 5px 10px;
+}
+
+#add_student_form {
+    margin: .5em 0 2em;
+}
+#add_student_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_student_form input {
+    float: left;
+}
+#add_student_form input[text] {
+    width: 15em;
+}
+
+
+
