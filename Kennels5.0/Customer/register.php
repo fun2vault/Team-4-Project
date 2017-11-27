@@ -17,14 +17,14 @@
       <nav class="navbar navbar-toggleable-sm header">
         <div class="container">
           <i class="navbar-toggler navbar-toggler-right material-icons" style="color: #fbf3ff;" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">menu</i>
-          <a class="navbar-brand" href="index.php"><img class="logo" src="img/logo.png"></a>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png"></a>
 
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="mr-auto">
             </ul>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="login.html">Login</a>
+                <a class="nav-link" href="login.php">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="register.php">Signup</a>
