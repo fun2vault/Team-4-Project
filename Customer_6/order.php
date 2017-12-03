@@ -90,7 +90,7 @@
 
                 <label for="number" class="col-sm-3 col-form-label">Card Number</label>
                 <div class="col-sm-9">
-                  <input name="card_number" id = "number" type="number" class="form-control"required>
+                  <input name="card_number" id = "card_number" type="number" class="form-control"required>
                 </div>
 
                 <label for="date" class="col-sm-3 col-form-label">Experation Date</label>
