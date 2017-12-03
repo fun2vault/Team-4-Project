@@ -1,0 +1,190 @@
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+}
+
+body {
+	background: #fbf3ff;
+}
+
+img {
+	max-width: 100%;
+}
+
+.header {
+	background: #9661b1;
+	padding: 20px;
+}
+
+@media (max-width: 575px) {
+	.logo {
+		max-width: 85%;
+	}
+}
+
+i.navbar-toggler.navbar-toggler-right {
+	margin-top: 25px;
+}
+
+.nav-item a {
+	color: #fff;
+}
+
+.navbar-toggler {
+	cursor: pointer;
+}
+
+#advert {
+	background: #ffe477;
+	padding: 10px 0;
+}
+
+#advert p {
+	margin-bottom: 0;
+}
+
+.spacing {
+	padding: 20px 0;
+}
+
+.center-img {
+	text-align: center;
+}
+
+.vertical-center {
+	text-align: center;
+	padding-top: 15px;
+}
+
+.jumbotron {
+	background: linear-gradient(#ffefb0, #ffe477);
+	position: relative;
+}
+
+.page-advert {
+	background: linear-gradient(#ffefb0, #ffe477);
+	position: relative;
+	padding: 20px 20px 10px 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-radius: calc(.25rem - 1px);
+	border: 1px solid #e4cb65;
+	color: rgb(94, 87, 59);
+}
+
+@media (min-width: 768px) {
+	.jumbotron::before {
+		background: url('img/kennel.png') no-repeat;
+		content: '';
+		display: block;
+		height: 291px;
+		position: absolute;
+		width: 379px;
+		top: 0px;
+		left: 50%;
+		overflow: hidden;
+	}
+
+	.border-line {
+		border-left: 1px solid rgb(175, 170, 178);
+	}
+}
+
+@media (max-width: 768px) {
+	.card {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+.card-deck {
+	margin-bottom: 50px;
+}
+
+.card-body {
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+.card a {
+	color: #292b2c;
+}
+
+.card a:hover {
+	color: #292b2c;
+	text-decoration: none;
+}
+
+.card:hover {
+	background: rgb(247, 247, 247);
+	box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.footer {
+	background: #9661b1;
+	padding: 20px 0;
+	color: #fff;
+}
+
+.footer ul {
+	list-style: none;
+	padding: 0 5px;
+}
+
+.footer a {
+	color: #e2cdec;
+}
+
+.footer a:focus, a:hover {
+	color: #faf1ff;
+	text-decoration: none;
+}
+
+.form-group .col-sm-9 {
+	margin-bottom: 10px;
+}
+
+.shop-image {
+	padding: 10px;
+	border: 1px solid rgba(0,0,0,.125);
+	background: rgb(247, 247, 247);
+	border-radius: 3px;
+}
+
+.shop-image img {
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+}
+
+.spacer {
+	margin: 20px 0;
+	height: 1px;
+	width: 100%;
+	background: #adadad;
+}
+
+.btn-kennels {
+	color: #fff;
+	background-color: #9661b1;
+	border-color: #9661b1;
+}
+
+.btn-kennels:hover {
+	background-color: rgb(128, 81, 152);
+}
+
+.btn-outline-kennels {
+	color: #9661b1;
+	background-image: none;
+	background-color: transparent;
+	border-color: #9661b1;
+}
+
+.btn-outline-kennels:hover {
+	color: #fff;
+	background-color: #9661b1;
+	border-color: #9661b1;
+}
